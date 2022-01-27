@@ -1,2 +1,2 @@
-# Proyecto-SQL-
-Este es mi obligatorio para obtener el diploma en Análisis de Datos.
+# Proyecto-SQL
+Este repositorio contiene el proyecto final del curso de SQL con SQL Server para obtener el diploma en Análisis de Datos.
