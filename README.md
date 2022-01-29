@@ -6,7 +6,8 @@ Este repositorio contiene el proyecto final del curso de SQL con SQL Server para
 /**
     * Consulta SQL:
 **/
-SELECT c.CompanyName, SUM(soh.TotalDue) AS Total FROM SalesLT1.Customer AS c
+SELECT c.CompanyName, SUM(soh.TotalDue) AS Total 
+FROM SalesLT1.Customer AS c
 LEFT JOIN SalesLT.SalesOrderHeader AS soh ON c.CustomerID = soh.CustomerID
 GROUP BY c.CompanyName ORDER BY Total DESC
 ```
