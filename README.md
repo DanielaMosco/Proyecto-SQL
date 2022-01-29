@@ -3,9 +3,6 @@ Este repositorio contiene el proyecto final del curso de SQL con SQL Server para
 
 ## Code Sample
 ```SQL Server 2014 Management Studio
-/**
-    * Consulta SQL:
-**/
 SELECT c.CompanyName, SUM(soh.TotalDue) AS Total 
 FROM SalesLT1.Customer AS c
 LEFT JOIN SalesLT.SalesOrderHeader AS soh ON c.CustomerID = soh.CustomerID
